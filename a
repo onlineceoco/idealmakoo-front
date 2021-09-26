@@ -1,0 +1,20 @@
+import { useState } from "react";
+
+import styles from "../styles/Home.module.css";
+import dynamic from 'next/dynamic'
+
+const Drawer =dynamic(()=> (import('../components/Drawer/Drawer')));
+const Navbar =dynamic(()=> (import('../components/Navbar/Navbar')));
+const Sidebar =dynamic(()=> (import('../components/Sidebar/Sidebar')));
+const HeroSection =dynamic(()=> (import('../components/HeroSection/HeroSection')));
+const InfoSection =dynamic(()=> (import('../components/InfoSection/InfoSection')));
+const homeObjectFour =dynamic(()=> (import('../components/InfoSection/Data')));
+const homeObjectOne =dynamic(()=> (import('../components/InfoSection/Data')));
+const homeObjectThree =dynamic(()=> (import('../components/InfoSection/Data')));
+const homeObjectTwo =dynamic(()=> (import('../components/InfoSection/Data')));
+const homeObjectFive =dynamic(()=> (import('../components/InfoSection/Data')));
+const Services =dynamic(()=> (import('../components/Services/Services')));
+const Footer =dynamic(()=> (import('../components/Footer/Footer')));
+const SliderOne =dynamic(()=> (import('../components/cardslider/sliderone')));
+const Dental =dynamic(()=> (import('../components/3d/dental')));
+const Smv =dynamic(()=> (import('../components/3d/mouse')));
