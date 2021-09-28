@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+.container {
+  animation: sub 1s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  animation: anima ease-in-out 1s;
+}
+@media screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@keyframes anima {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+  }
+}
+.threeDSection {
+  animation: anima ease-in-out 1s;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.stuff {
+  animation: anima ease-in-out 1s;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 25%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+#title {
+  animation: anima ease-in-out 1s;
+  text-shadow: 4px 1px 10px rgba(0, 0, 0, 11);
+  margin-top: 40px;
+  font-size: 60px;
+  color: #b30000;
+}
+#subtitle {
+  animation: anima ease-in-out 1s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 11);
+  color: #24b300;
+  font-size: 30px;
+  max-width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+@keyframes sub {
+  from {
+    opacity: 0;
+    margin-top: 80px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 40;
+  }
+}
+@media screen and (max-width: 838px) {
+  #title {
+    font-size: 40px;
+    margin-top: 25%;
+  }
+  #subtitle {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 542px) {
+  #title {
+    font-size: 30px;
+    margin-top: 0%;
+  }
+  #subtitle {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 414px) {
+  #title {
+    font-size: 20px;
+    margin-top: 0%;
+  }
+  #subtitle {
+    font-size: 15px;
+  }
+}
