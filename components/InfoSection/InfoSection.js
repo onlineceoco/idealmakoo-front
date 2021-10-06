@@ -6,7 +6,8 @@ import Link from 'next/link'
 
 
 
-const InfoSection = ({lightBg, id, topLine, headLine, description,btnLink, buttonLable,img,alt,imgStart, lightText, darkText, dark, dark2, primary,imgDisplay,videoDisplay,respDisplay }) => {
+const InfoSection = ({lightBg, id,btnDisplay, topLine, headLine, description,btnLink, buttonLable,img,alt,imgStart, lightText, darkText, dark, dark2,
+    details, primary,imgDisplay,videoDisplay,respDisplay }) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id} >
@@ -17,6 +18,7 @@ const InfoSection = ({lightBg, id, topLine, headLine, description,btnLink, butto
                             <TopLine>{topLine}</TopLine>
                             <Heading  lightText={lightText}>{headLine} </Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
+                            <div style={{display:btnDisplay}}>
                             <BtnWrap>
                                 <Link href={btnLink} passHref><Button 
                                 to='home'
@@ -29,8 +31,9 @@ const InfoSection = ({lightBg, id, topLine, headLine, description,btnLink, butto
                                 dark2={dark2 ? 1 : 0}
 
                                >{buttonLable}</Button></Link>
-                            </BtnWrap>
+                            </BtnWrap></div>
                         </TextWrapper>
+                                
                         </Column1>
                         <Column2>
                             <ImgWrap>
