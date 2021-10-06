@@ -39,14 +39,14 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.bottomLogo}>
-        <h1>IDEAL MAKOO</h1>
-        <a href='https://www.onlineceo.ir' >OnlinCEO Programing company  {new Date().getFullYear()} All rights reserved</a>
+        <h1>Ideal Makoo</h1>
+        <a>OnlinCEO Programing company  {new Date().getFullYear()} All rights reserved</a>
         <div className={styles['logo']}>
-        <div className={styles.otherlogo}><FaFacebook id={styles.facebook} /></div>
-        <div className={styles.otherlogo}><FaInstagram id={styles.instagram} /></div>
-        <div className={styles.otherlogo}><FaTwitter id={styles.twitter} /></div>
-        <div className={styles.otherlogo}><FaWhatsapp id={styles.whatsapp} /></div>
-        <div className={styles.otherlogo}><FaYoutube id={styles.youtube} /></div>
+        {/* <div className={styles.otherlogo}><FaFacebook id={styles.facebook} /></div> */}
+        <div className={styles.otherlogo}><a href='https://instagram.com/idealmakoo_company?utm_medium=copy_link' target="_blank" rel="noreferrer" ><FaInstagram  id={styles.instagram} /></a></div>
+        <div className={styles.otherlogo}><a href='https://www.twitter.com' target="_blank" rel="noreferrer" ><FaTwitter id={styles.twitter} /></a></div>
+        <div className={styles.otherlogo}><a href='https:/wa.me/989121933606' target="_blank" rel="noreferrer" ><FaWhatsapp id={styles.whatsapp} /></a></div>
+        {/* <div className={styles.otherlogo}><FaYoutube id={styles.youtube} /></div> */}
         </div>
       </div>
     </div>
