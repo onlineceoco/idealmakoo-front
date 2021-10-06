@@ -1,13 +1,11 @@
-import Head from "next/head";
+
 import Menubar from "./menubar/Menubar";
 import Footer from "./Footer/footer";
 import Drawer from "../Drawer/Drawer";
 
 const Layout = ({ children }) => (
   <div className="root">
-    <Head>
-      <title>VETNOW</title>
-    </Head>
+    
     <header>
       <Menubar />
     </header>
