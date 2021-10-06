@@ -45,7 +45,7 @@ const Footer = () => {
         {/* <div className={styles.otherlogo}><FaFacebook id={styles.facebook} /></div> */}
         <div className={styles.otherlogo}><a href='https://instagram.com/idealmakoo_company?utm_medium=copy_link' target="_blank" rel="noreferrer" ><FaInstagram  id={styles.instagram} /></a></div>
         <div className={styles.otherlogo}><a href='https://www.twitter.com' target="_blank" rel="noreferrer" ><FaTwitter id={styles.twitter} /></a></div>
-        <div className={styles.otherlogo}><a href='https:/wa.me/989121933606' target="_blank" rel="noreferrer" ><FaWhatsapp id={styles.whatsapp} /></a></div>
+        <div className={styles.otherlogo}><a href='https://wa.me/989121933606' target="_blank" rel="noreferrer" ><FaWhatsapp id={styles.whatsapp} /></a></div>
         {/* <div className={styles.otherlogo}><FaYoutube id={styles.youtube} /></div> */}
         </div>
       </div>
