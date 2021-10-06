@@ -280,7 +280,7 @@
   align-items: center;
 }
 .sidebar.close .profile-details .profile-content {
-  padding-right: 5px;
+  padding-right: 10px;
 }
 .sidebar .profile-details .profile-name,
 .sidebar .profile-details .job {
