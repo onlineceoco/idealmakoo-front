@@ -59,7 +59,7 @@ const Footer = () => {
                             <SocialIconLink href='https://instagram.com/idealmakoo_company?utm_medium=copy_link' target='_blank'  aria-label='Instagram'>
                             <FaInstagram/>   
                             </SocialIconLink>
-                            <SocialIconLink href='https://www.wa.me/989121933606' target='_blank'        aria-label='Whattsapp'>
+                            <SocialIconLink href='https://wa.me/989121933606' target='_blank'        aria-label='Whattsapp'>
                                 <FaWhatsapp />
                             </SocialIconLink>
                             {/* <SocialIconLink href='/' target='_blank'  aria-label='Facebook'>
