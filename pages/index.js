@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import World from "../components/worldMap/world";
+import Head from "next/head";
 import {
   homeObjectFour,
   homeObjectOne,
@@ -17,7 +18,7 @@ const Navbar = dynamic(() => import("../components/Navbar/Navbar"));
 const Sidebar = dynamic(() => import("../components/Sidebar/Sidebar"));
 const Own = dynamic(() => import("../components/ownSlider/own"));
 const InfoSection = dynamic(() =>
-  import("./../components/InfoSection/InfoSection")
+  import("./../components/InfoSection/InfoSection"),
 );
 const Services = dynamic(() => import("../components/Services/Services"));
 const Footer = dynamic(() => import("../components/Footer/Footer"));
@@ -37,6 +38,9 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>IdealMakoo</title>
+      </Head>
       <Drawer />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
