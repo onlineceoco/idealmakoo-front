@@ -1,0 +1,652 @@
+.frame-2 {
+  align-items: flex-end;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding: 11.8px 7.1px;
+  width: 321px;
+}
+
+.overlap-group {
+  height: 294px;
+  margin-right: 1.11px;
+  position: relative;
+  width: 301px;
+}
+
+.t1 {
+  height: 46px;
+  left: 240px;
+  object-fit: cover;
+  position: absolute;
+  top: 243px;
+  width: 53px;
+}
+
+.t2 {
+  height: 49px;
+  left: 243px;
+  object-fit: cover;
+  position: absolute;
+  top: 197px;
+  width: 52px;
+}
+
+.t3 {
+  height: 45px;
+  left: 243px;
+  object-fit: cover;
+  position: absolute;
+  top: 155px;
+  width: 49px;
+}
+
+.t4 {
+  height: 41px;
+  left: 238px;
+  object-fit: cover;
+  position: absolute;
+  top: 117px;
+  width: 47px;
+}
+
+.t5 {
+  height: 43px;
+  left: 227px;
+  object-fit: cover;
+  position: absolute;
+  top: 84px;
+  width: 45px;
+}
+
+.t6 {
+  height: 37px;
+  left: 214px;
+  object-fit: cover;
+  position: absolute;
+  top: 57px;
+  width: 43px;
+}
+
+.t7 {
+  height: 44px;
+  left: 187px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 43px;
+}
+
+.t8 {
+  height: 60px;
+  left: 103px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 91px;
+}
+
+.t9 {
+  height: 45px;
+  left: 69px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 43px;
+}
+
+.t10 {
+  height: 42px;
+  left: 41px;
+  object-fit: cover;
+  position: absolute;
+  top: 52px;
+  width: 46px;
+}
+
+.t11 {
+  height: 45px;
+  left: 25px;
+  object-fit: cover;
+  position: absolute;
+  top: 83px;
+  width: 46px;
+}
+
+.t13 {
+  height: 39px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 119px;
+  width: 48px;
+}
+
+.t14 {
+  height: 46px;
+  left: 8px;
+  object-fit: cover;
+  position: absolute;
+  top: 155px;
+  width: 48px;
+}
+
+.t15 {
+  height: 47px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 197px;
+  width: 50px;
+}
+
+.t16 {
+  height: 43px;
+  left: 6px;
+  object-fit: cover;
+  position: absolute;
+  top: 243px;
+  width: 51px;
+}
+.t1r {
+  height: 54px;
+  left: 236px;
+  pointer-events: auto;
+  position: absolute;
+  top: 240px;
+  transition: all 0.2s ease-in-out;
+  width: 61px;
+}
+.t2r {
+  height: 58px;
+  left: 238px;
+  pointer-events: auto;
+  position: absolute;
+  top: 194px;
+   
+  width: 63px;
+}
+.t3r {
+  height: 54px;
+  left: 239px;
+  pointer-events: auto;
+  position: absolute;
+  top: 152px;
+   
+  width: 57px;
+}
+.t4r {
+  height: 50px;
+  left: 233px;
+  pointer-events: auto;
+  position: absolute;
+  top: 114px;
+   
+  width: 58px;
+}
+.t5r {
+  height: 52px;
+  left: 222px;
+  pointer-events: auto;
+  position: absolute;
+  top: 80px;
+   
+  width: 55px;
+}
+.t6r {
+  height: 46px;
+  left: 209px;
+  pointer-events: auto;
+  position: absolute;
+  top: 53px;
+   
+  width: 52px;
+}
+.t7r {
+  height: 53px;
+  left: 182px;
+  pointer-events: auto;
+  position: absolute;
+  top: 23px;
+   
+  width: 53px;
+}
+.t8r {
+  height: 72px;
+  left: 100px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+   
+  width: 99px;
+}
+.t9r {
+  height: 54px;
+  left: 64px;
+  pointer-events: auto;
+  position: absolute;
+  top: 22px;
+   
+  width: 52px;
+}
+.t10r {
+  height: 50px;
+  left: 37px;
+  pointer-events: auto;
+  position: absolute;
+  top: 49px;
+   
+  width: 54px;
+}
+.t11r {
+  height: 52px;
+  left: 20px;
+  pointer-events: auto;
+  position: absolute;
+  top: 80px;
+   
+  width: 55px;
+}
+.t12r {
+  height: 47px;
+  left: 8px;
+  pointer-events: auto;
+  position: absolute;
+  top: 116px;
+   
+  width: 56px;
+}
+.t13r {
+  height: 55px;
+  left: 3px;
+  pointer-events: auto;
+  position: absolute;
+  top: 151px;
+   
+  width: 58px;
+}
+.t14r {
+  height: 55px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 195px;
+   
+  width: 60px;
+}
+.t15r {
+  height: 51px;
+  left: 1px;
+  pointer-events: auto;
+  position: absolute;
+  top: 240px;
+   
+  width: 60px;
+}
+.overlap-group1 {
+  height: 259px;
+  margin-top: 24px;
+  position: relative;
+  width: 305px;
+}
+
+.t17 {
+  height: 51px;
+  left: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 49px;
+}
+
+.t18 {
+  height: 45px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 50px;
+}
+
+.t19 {
+  height: 44px;
+  left: 21px;
+  object-fit: cover;
+  position: absolute;
+  top: 91px;
+  width: 51px;
+}
+
+.t20 {
+  height: 39px;
+  left: 36px;
+  object-fit: cover;
+  position: absolute;
+  top: 131px;
+  width: 44px;
+}
+
+.t21 {
+  height: 36px;
+  left: 54px;
+  object-fit: cover;
+  position: absolute;
+  top: 159px;
+  width: 39px;
+}
+
+.t22 {
+  height: 41px;
+  left: 72px;
+  object-fit: cover;
+  position: absolute;
+  top: 181px;
+  width: 33px;
+}
+
+.t23 {
+  height: 45px;
+  left: 94px;
+  object-fit: cover;
+  position: absolute;
+  top: 195px;
+  width: 33px;
+}
+
+.t24 {
+  height: 47px;
+  left: 124px;
+  object-fit: cover;
+  position: absolute;
+  top: 207px;
+  width: 57px;
+}
+
+.t25 {
+  height: 45px;
+  left: 177px;
+  object-fit: cover;
+  position: absolute;
+  top: 196px;
+  width: 36px;
+}
+
+.t26 {
+  height: 43px;
+  left: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 180px;
+  width: 34px;
+}
+
+.t27 {
+  height: 39px;
+  left: 211px;
+  object-fit: cover;
+  position: absolute;
+  top: 157px;
+  width: 41px;
+}
+
+.t28 {
+  height: 34px;
+  left: 225px;
+  object-fit: cover;
+  position: absolute;
+  top: 133px;
+  width: 44px;
+}
+
+.t29 {
+  height: 41px;
+  left: 233px;
+  object-fit: cover;
+  position: absolute;
+  top: 93px;
+  width: 51px;
+}
+
+.t30 {
+  height: 45px;
+  left: 242px;
+  object-fit: cover;
+  position: absolute;
+  top: 53px;
+  width: 47px;
+}
+
+.t31 {
+  height: 50px;
+  left: 252px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 48px;
+}
+
+.t16r {
+  height: 61px;
+  left: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+   
+  width: 58px;
+}
+.t17r {
+  height: 56px;
+  left: 10px;
+  pointer-events: auto;
+  position: absolute;
+  top: 48px;
+   
+  width: 59px;
+}
+.t18r {
+  height: 53px;
+  left: 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: 88px;
+   
+  width: 62px;
+}
+.t19r {
+  height: 48px;
+  left: 31px;
+  pointer-events: auto;
+  position: absolute;
+  top: 127px;
+   
+  width: 54px;
+}
+
+.t20r {
+  height: 46px;
+  left: 50px;
+  pointer-events: auto;
+  position: absolute;
+  top: 155px;
+   
+  width: 48px;
+}
+.t21r {
+  height: 51px;
+  left: 67px;
+  pointer-events: auto;
+  position: absolute;
+  top: 177px;
+   
+  width: 43px;
+}
+.t22r {
+  height: 54px;
+  left: 89px;
+  pointer-events: auto;
+  position: absolute;
+  top: 191px;
+   
+  width: 43px;
+}
+.t23r {
+  height: 55px;
+  left: 117px;
+  pointer-events: auto;
+  position: absolute;
+  top: 204px;
+   
+  width: 71px;
+}
+.t24r {
+  height: 56px;
+  left: 172px;
+  pointer-events: auto;
+  position: absolute;
+  top: 191px;
+   
+  width: 47px;
+}
+.t25r {
+  height: 53px;
+  left: 195px;
+  pointer-events: auto;
+  position: absolute;
+  top: 176px;
+   
+  width: 43px;
+}
+.t26r {
+  height: 48px;
+  left: 206px;
+  pointer-events: auto;
+  position: absolute;
+  top: 153px;
+   
+  width: 50px;
+}
+.t27r {
+  height: 45px;
+  left: 220px;
+  pointer-events: auto;
+  position: absolute;
+  top: 128px;
+   
+  width: 53px;
+}
+.t28r {
+  height: 51px;
+  left: 228px;
+  pointer-events: auto;
+  position: absolute;
+  top: 90px;
+   
+  width: 60px;
+}
+.t29r {
+  height: 55px;
+  left: 237px;
+  pointer-events: auto;
+  position: absolute;
+  top: 49px;
+  width: 57px;
+}
+.t30r {
+  height: 59px;
+  left: 247px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1px;
+   
+  width: 58px;
+}
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+
+
+.t1r:hover,
+.t2r:hover,
+.t3r:hover,
+.t4r:hover,
+.t5r:hover,
+.t6r:hover,
+.t7r:hover,
+.t8r:hover,
+.t9r:hover,
+.t10r:hover,
+.t11r:hover,
+.t12r:hover,
+.t13r:hover,
+.t14r:hover,
+.t15r:hover,
+.t16r:hover,
+.t17r:hover,
+.t18r:hover,
+.t19r:hover,
+.t20r:hover,
+.t21r:hover,
+.t22r:hover,
+.t23r:hover,
+.t24r:hover,
+.t25r:hover,
+.t26r:hover,
+.t27r:hover,
+.t28r:hover,
+.t29r:hover,
+.t30r:hover {
+  opacity: 1;
+  filter: blur(10px);
+}
+.t1r,
+.t2r,
+.t3r,
+.t4r,
+.t5r,
+.t6r,
+.t7r,
+.t8r,
+.t9r,
+.t10r,
+.t11r,
+.t12r,
+.t13r,
+.t14r,
+.t15r,
+.t16r,
+.t17r,
+.t18r,
+.t19r,
+.t20r,
+.t21r,
+.t22r,
+.t23r,
+.t24r,
+.t25r,
+.t26r,
+.t27r,
+.t28r,
+.t29r,
+.t30r {
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* TOOLTIP CSS */

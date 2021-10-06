@@ -1,0 +1,132 @@
+/* Wrapping */
+
+/* Absolute positioning */
+.Tooltip-Tip {
+  position: absolute;
+  border-radius: 4px;
+  right: 50%;
+  top: 50%;
+  width: 170px;
+  height: auto;
+/* overflow: hidden; */
+  transform: translateX(+50%);
+  padding: 6px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 1;
+  z-index: 100;
+  
+}
+.bg{
+ bottom: -30px;
+ left: 30px;
+ 
+  animation: anima 3s ease-in-out infinite reverse;
+  /* background-origin: center center; */
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  
+  border-radius: 50%;
+  
+  background-color: rgb(179, 32, 32);
+}
+@keyframes anima {
+  
+  0% {
+    
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  100% {
+    
+    opacity:.5;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+
+/* CSS border triangles */
+.Tooltip-Tip::before {
+  content: " ";
+  left: 50%;
+  border: solid transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 6px;
+  margin-left: calc(6px * -1);
+}
+
+/* Absolute positioning */
+.Tooltip-Tip.top {
+  top: calc(30px * -1);
+}
+/* CSS border triangles */
+.Tooltip-Tip.top::before {
+  top: 100%;
+  border-top-color: black;
+}
+
+/* Absolute positioning */
+.Tooltip-Tip.right {
+  left: calc(100% + 30px);
+  top: 50%;
+  transform: translateX(0) translateY(-50%);
+}
+/* CSS border triangles */
+.Tooltip-Tip.right::before {
+  left: calc(6px * -1);
+  top: 50%;
+  transform: translateX(0) translateY(-50%);
+  border-right-color: black;
+}
+
+/* Absolute positioning */
+.Tooltip-Tip.bottom {
+  bottom: calc(30px * -1);
+}
+/* CSS border triangles */
+.Tooltip-Tip.bottom::before {
+  bottom: 100%;
+  border-bottom-color: black;
+}
+
+/* Absolute positioning */
+.Tooltip-Tip.left {
+  left: auto;
+  right: calc(100% + 30px);
+  top: 50%;
+  transform: translateX(0) translateY(-50%);
+}
+/* CSS border triangles */
+.Tooltip-Tip.left::before {
+  left: auto;
+  right: calc(6px * -2);
+  top: 50%;
+  transform: translateX(0) translateY(-50%);
+  border-left-color: rgb(0, 0, 0);
+}
+.Tooltip-Tip > p{
+  
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    animation: panima 1.5s alternate both infinite;
+}
+@keyframes panima {
+  from{
+    
+    word-spacing: 5px;
+  }
+  to{
+
+    word-spacing: 5px;
+  }
+}

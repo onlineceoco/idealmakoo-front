@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  cursor: default;
+  justify-content: space-around;
+  width: 150px;
+  border: 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  margin: 0 auto;
+  /* background-color: rgb(247, 140, 0); */
+}
+.container {
+  width: 100%;
+  border: 0px;
+  display: flex;
+  border-radius: 6px;
+  flex-direction: row;
+
+  /* background-color: rgb(247, 140, 0); */
+}
+#textInput {
+  text-align: center;
+  cursor: default;
+  height: 100%;
+  width: 55px;
+  outline: 0;
+  border: 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: white;
+}
+
+.container > button {
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(139, 139, 139);
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+}
+#minusBtn:active {
+  border: 1px solid rgb(253, 8, 151);
+  background-color: rgb(240, 23, 95);
+}
+#plusBtn:active {
+  border: 1px solid rgb(2, 255, 213);
+  background-color: rgb(14, 175, 95);
+}
+
+#numberLabel {
+  direction: rtl;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 14px;
+}
