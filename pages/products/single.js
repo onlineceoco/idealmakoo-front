@@ -2,7 +2,7 @@ import modalcssStyle from "../../styles/single_product.module.css";
 import ImageTab from "../../components/SingleProductElement/ImageTab";
 import PlusMinusBtn from "../../components/SingleProductElement/PlusMinusBtn";
 import DescriptionComment from "../../components/SingleProductElement/DescriptionComment";
-
+import Head from "next/head";
 
 const detaile = {
   image1: "/images/5211.jpg",
@@ -20,10 +20,11 @@ const detaile = {
   rightTabTitle: "Comment",
 };
 export default function Modal() {
-  
-
   return (
     <>
+      <Head>
+        <title>IdealMakoo</title>
+      </Head>
       <div>
         <div className={modalcssStyle["setFixed"]}>
           <div className={modalcssStyle["container"]}>
