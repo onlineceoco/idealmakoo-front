@@ -118,7 +118,7 @@ class React360Viewer extends Component {
             this.onAllImagesLoaded(event);
         } else if (this.loadedImages === 1) {
             
-            console.log('load first image')
+            // console.log('load first image')
         }
     }
 
@@ -131,7 +131,7 @@ class React360Viewer extends Component {
         } 
       
         this.viewerPercentage.innerHTML = percentage + '%';
-        console.log(percentage + '%')
+        // console.log(percentage + '%')
     }
 
     onAllImagesLoaded(e){
@@ -451,7 +451,7 @@ class React360Viewer extends Component {
     }
 
     zoom(clicks){
-        console.log(this.lastX + ' - ' + this.lastY)
+        // console.log(this.lastX + ' - ' + this.lastY)
         let factor = Math.pow(1.01,clicks);
         //console.log(factor)
         if(factor > 1){
@@ -597,7 +597,7 @@ class React360Viewer extends Component {
 
     componentDidUpdate(prevProps, prevState) {
         if(this.state.currentLeftPosition !== prevState.currentLeftPosition){
-            console.log('Left Position Changed')
+            // console.log('Left Position Changed')
         }
 
         if(this.state.panmode !== prevState.panmode){
